@@ -7,34 +7,107 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>자기소개서</title>
 </head>
 <body>
   <div class="container text-body">
-    <div><p><h3>이충호 <small class="text-secondary">Lee, Chungho</small></h3></p>
-    <ul>
-      <i class="fa fa-envelope">학번 : 201608114 
-      <i>이메일 : chlee125@gmail.com</i>
-
-    </ul>
+    <!--기본정보 부분 -->
+    <div class="row mt-5">
+      <div class="col-md-6 col-sm-5">
+        <p><h3>이충호 <small class="text-secondary">Lee, Chungho</small></h3></p>
+      </div>
+      <div class="col-md-4 col-sm-4 text-md-left text-left">
+        <p><i class="fa fa-id-card-o"></i> 201608114</p>
+        <p><i class="fa fa-envelope-open-o"></i> chlee125@gmail.com</p>
+        <p><i class="fa fa-phone"></i> +82 10-4097-7775</p>
+        <p><i class="fa fa-calendar"></i> 21 April 1992</p>
+      </div>
+      <div class="col-md-2 col-sm-3 text-md-center text-center">
+        <img class="img-fluid rounded" src="./img/img2.jpg" />
+      </div>
+    </div>
+    <hr>
     <div>
-    <hr>
-    <p>약력</p>
+      <p>학력</p>
 
-    <hr>
-    <p>학력</p>
+      <ul>
+        <li>인하공업전문대학</li>
+      </ul>
+      <hr>
+      <p>경력</p>
+      <hr>
+      <h3>Skill</h3>
+      <div class="row mt-3">
+        <div class="col-sm-5 col-md-5">
+          <h5>WEB</h5>
+          <div class="progress">
+            <div id="HTML" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">HTML</div>
+          </div>
+          <br/>
+          <div class="progress">
+            <div id="CSS" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">CSS</div>
+          </div>
+          <br/>
+          <div class="progress">
+            <div id="JQUERY" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">jQuery</div>
+          </div>
+          <br/>
+          <div class="progress">
+            <div id="JAVASCRIPT" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+          </div>
+          <br/>
+          <div class="progress">
+            <div id="JSP" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">JSP</div>
+          </div>
+          <br/>
+          <div class="progress">
+            <div id="SPRING" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Spring Framework</div>
+          </div>
+          <br/>
+          <div class="progress">
+            <div id="DJANGO" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">django</div>
+          </div>
+        </div>
+        <br/>
+        <div class="col-sm-2 col-md-2 mt-5"></div>
+        <div class="col-sm-5 col-md-5">
+          <h5>Programing Language</h5>
+          <div class="progress">
+            <div id="CPP" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">C</div>
+          </div>
+          <br/>
+          <div class="progress">
+            <div id="JAVA" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Java</div>
+          </div>
+          <br/>
+          <div class="progress">
+            <div id="PYTHON" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Python</div>
+          </div>
+          <br/>
+        </div>
+      </div>
+      <h5>etc</h5>
+      Git, Github
 
-    <ul>
-      <li>인하공업전문대학 재학</li>
-    </ul>
-    <hr>
-    <p>경력</p>
-    <hr>
-    <p>보유 기술</p>
-    <hr>
-    <p>기타 외부활동 경험</p>
-
+    </div>
   </div>
 
 </body>
+<script type="text/javascript">
+$(".progress").css("height", "30px");
+$("#HTML").css("width", "100%");
+$("#CSS").css("width", "90%");
+$("#JQUERY").css("width", "90%");
+$("#JAVASCRIPT").css("width", "80%");
+$("#DJANGO").css("width", "30%");
+$("#JSP").css("width", "70%");
+$("#SPRING").css("width", "90%");
+
+$("#CPP").css("width", "90%");
+$("#JAVA").css("width", "85%");
+$("#PYTHON").css("width", "65%");
+
+
+</script>
 </html>
