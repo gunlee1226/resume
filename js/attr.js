@@ -1,6 +1,4 @@
 $("document").ready(function() {
-  // 툴팁관련 설정
-  $('[data-toggle="tooltip"]').tooltip();
   // mouse_pointer 클래스 속성 추가
   $(".mouse_pointer").attr(
     "data-toggle",

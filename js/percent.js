@@ -1,4 +1,5 @@
 $("document").ready(function() {
+  $(".progress-bar").css("width", "0%");
   // Front-end
   $("#HTML").css("width", "80%");
   $("#CSS").css("width", "80%");
