@@ -8,7 +8,6 @@ $("document").ready(function() {
   $("#CORDOVA").css("width", "50%");
   $("#NODE").css("width", "30%");
   $("#VUE").css("width", "30%");
-
   // Back-end
   $("#CPP").css("width", "85%");
   $("#JAVA").css("width", "85%");
