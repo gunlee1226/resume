@@ -1,4 +1,3 @@
-$(".progress-bar").css("width", "0%");
 $("document").ready(function () {
   // Front-end
   $("#HTML").css("width", "85%");
@@ -30,13 +29,15 @@ $("document").ready(function () {
   $("#NODE").text(document.getElementById('NODE').style.width)
   $("#DJANGO").text(document.getElementById('DJANGO').style.width)
   $("#KOTLIN").text(document.getElementById('KOTLIN').style.width)
+  
   $("#HTML").text(document.getElementById('HTML').style.width)
   $("#CSS").text(document.getElementById('CSS').style.width)
   $("#JQUERY").text(document.getElementById('JQUERY').style.width)
   $("#JAVASCRIPT").text(document.getElementById('JAVASCRIPT').style.width)
   $("#JSP").text(document.getElementById('JSP').style.width)
   $("#CORDOVA").text(document.getElementById('CORDOVA').style.width)
-  $("#VUE").text(document.getElementById('VUE').style.width);
+  $("#VUE").text(document.getElementById('VUE').style.width)
+
   $("#ORACLE").text(document.getElementById('ORACLE').style.width)
   $("#MSSQL").text(document.getElementById('MSSQL').style.width)
   $("#MYSQL").text(document.getElementById('MYSQL').style.width)
