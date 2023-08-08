@@ -1,5 +1,5 @@
 import React from 'react';
-import Information from "../Components/Information";
+import Information from "./Information";
 
 const Portfolio = () => {
     const portfolios = [
@@ -148,7 +148,19 @@ const Portfolio = () => {
         {
             position: 'Nuxt.js',
             name: 'LG U+ 데이터레이크',
-            date: {from: '2022년 6월', to: 'Current'},
+            date: {from: '2022년 6월', to: '2022년 12월'},
+            desc: []
+        },
+        {
+            position: 'Vite',
+            name: 'LG U+ 서빙로봇 앱',
+            date: {from: '2022년 12월', to: '2023년 3월'},
+            desc: []
+        },
+        {
+            position: 'Vite',
+            name: 'LG U+ 상품출시 지원 시스템',
+            date: {from: '2022년 4월', to: 'Current'},
             desc: []
         },
     ];

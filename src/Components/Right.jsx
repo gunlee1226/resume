@@ -1,5 +1,5 @@
-import AboutMe from "../Components/AboutMe";
-import WorkExperience from "../Components/WorkExperience";
+import AboutMe from "./AboutMe";
+import WorkExperience from "./WorkExperience";
 
 const Right = () => {
   return (<>

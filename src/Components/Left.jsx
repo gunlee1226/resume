@@ -1,5 +1,5 @@
-import ContextMe from "../Components/ContextMe";
-import Education from "../Components/Education";
+import ContextMe from "./ContextMe";
+import Education from "./Education";
 
 const Left = () => {
   return (

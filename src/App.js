@@ -1,10 +1,10 @@
 import './App.css';
 import React from "react";
-import Portfolio from "./Pages/Portfolio";
-import Left from "./Pages/Left";
-import Right from "./Pages/Right";
-import Skills from "./Pages/Skills";
-import Footer from "./Pages/Footer";
+import Portfolio from "./Components/Portfolio";
+import Left from "./Components/Left";
+import Right from "./Components/Right";
+import Skills from "./Components/Skills";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
