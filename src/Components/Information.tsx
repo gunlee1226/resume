@@ -12,7 +12,7 @@ const Description = (props) => {
   return (<div>{props.desc.length > 0 || props.desc ? lists : ""}</div>)
 };
 
-const Information = (props) => props.props.map((item, i) => (
+const Information = (props) => props.props.map((item) => (
   <div className="w3-container">
     <h5 className="w3-opacity">
       <b>{item.position ?

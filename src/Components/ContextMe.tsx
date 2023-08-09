@@ -1,6 +1,4 @@
-import React from 'react';
-
-const ContextMe = (props) => {
+const ContextMe = () => {
   return (
 
       <div className="w3-white w3-text-grey w3-card-4 w3-margin-bottom">

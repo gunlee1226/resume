@@ -33,7 +33,7 @@ const Skills = () => {
   };
 
   const Detail = (props) => {
-    return props.map((item, i) => (
+    return props.map((item) => (
       <li className="w3-padding-16">{item.name}
         <div className="w3-light-grey w3-round-xlarge w3-small">
           <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{ width: item.percentage }}>
@@ -46,9 +46,8 @@ const Skills = () => {
 
   const Frontend = (props) => {
     // TODO: Filter 적용하여 props 와 일치하는 값을 전달
-    let object = Object.values(skills).map(v => Object.keys(v).map(v2 => v[v2]))
-    let filtered = object.filter(v => v.length > 5)
-    let items = Detail((Object.values(skills)[0]));
+    Object.values(skills).map(v => Object.keys(v).map(v2 => v[v2]))
+    const items = Detail((Object.values(skills)[0]));
 
     return (
       <div className="w3-third w3-margin-bottom">
@@ -61,7 +60,7 @@ const Skills = () => {
   };
 
   const Backend = (props) => {
-    let items = Detail(skills.backend)
+    const items = Detail(skills.backend)
     return (
       <div className="w3-third w3-margin-bottom">
         <ul className="w3-ul w3-border w3-white">
@@ -73,7 +72,7 @@ const Skills = () => {
   }
 
   const Language = (props) => {
-    let items = Detail(skills.language)
+    const items = Detail(skills.language)
     return (
       <div className="w3-third w3-margin-bottom">
         <ul className="w3-ul w3-border w3-white">

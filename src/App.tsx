@@ -1,5 +1,4 @@
 import './App.css';
-import React from "react";
 import Portfolio from "./Components/Portfolio";
 import Left from "./Components/Left";
 import Right from "./Components/Right";

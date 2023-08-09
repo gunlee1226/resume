@@ -1,6 +1,6 @@
 import Information from "./Information";
 
-const WorkExperience = (props) => {
+const WorkExperience = () => {
 
   const experiences = [
   {

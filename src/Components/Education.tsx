@@ -1,7 +1,6 @@
-import React from "react";
 import Information from "./Information";
 
-const Education = (props) => {
+const Education = () => {
   const educations = [
     {
       'position':'대학교',
