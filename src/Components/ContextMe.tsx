@@ -1,9 +1,11 @@
+import avatar from '@/assets/img/avatar.jfif'
+
 const ContextMe = () => {
   return (
 
       <div className="w3-white w3-text-grey w3-card-4 w3-margin-bottom">
         <div className="w3-display-container">
-          <img src="/img/avatar.jfif" alt="Avatar"/>
+          <img src={avatar} alt="Avatar"/>
           <div className="w3-display-bottomleft w3-container w3-text-black">
             <h2 className="w3-text-gray">이충호 <small>[Lee,Chungho]</small></h2>
           </div>
