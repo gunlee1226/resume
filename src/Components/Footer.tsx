@@ -4,7 +4,7 @@ const Footer = () => {
           href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
           className="w3-hover-opacity" rel="noreferrer">w3.css</a>
         <br/>
-        Last Modified at 8.Aug.2023,
+        Last Modified at 3.Nov.2023,
         <a href='https://github.com/chlee125/resume/commits/master' target="_blank" className="w3-hover-opacity" rel="noreferrer">Update
           Note.</a>&nbsp;
         <a href='https://github.com/chlee125' target='_blank' className="w3-hover-opacity" rel="noreferrer">

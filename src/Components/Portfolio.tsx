@@ -91,7 +91,7 @@ const Portfolio = () => {
             desc: ["~ 2021년 5월: 반값 픽업지도 오픈",
                 "UI/UX 및 프로세스 설계",
                 "페이코 앱 내 반값택배 예약 사용",
-                "2021년 10월 ~: 국내 픽업지도 개발 진행"
+                "2021년 10월: 국내 픽업지도 개발 진행"
             ]
         }, {
             position: 'Next.js',
@@ -131,36 +131,68 @@ const Portfolio = () => {
             position: 'Nuxt.js',
             name: 'LG U+ 로봇 관리 플랫폼',
             date: {from: '2022년 3월', to: '2022년 5월'},
-            desc: []
+            desc: [
+                'Nuxt + Vue2'
+            ]
         },
         {
             position: 'Nuxt.js',
             name: 'LG U+ 로봇 관제 플랫폼',
             date: {from: '2022년 3월', to: '2022년 5월'},
-            desc: []
+            desc: [
+                'Nuxt + Vue2'
+            ]
         },
         {
             position: 'Nuxt.js',
             name: 'LG U+ AI',
             date: {from: '2022년 4월', to: '2022년 4월'},
-            desc: []
+            desc: [
+                'Nuxt + Vue2 + Composition API'
+            ]
         },
         {
             position: 'Nuxt.js',
             name: 'LG U+ 데이터레이크',
             date: {from: '2022년 6월', to: '2022년 12월'},
-            desc: []
+            desc: [
+                'Nuxt + Vue2 + Composition API'
+            ]
         },
         {
-            position: 'Vite',
+            position: 'Vue3',
             name: 'LG U+ 서빙로봇 앱',
             date: {from: '2022년 12월', to: '2023년 3월'},
+            desc: [
+                'Vite + Vue3 + typescript',
+                'Frontend PL 및 개발'
+            ]
+        },
+        {
+            position: 'Vue3',
+            name: 'LG U+ 상품출시 지원 시스템',
+            date: {from: '2022년 4월', to: '2023년 10월'},
+            desc: [
+                'Vite + Vue3 + typescript',
+                'Frontend PL 및 개발'
+            ]
+        },
+        {
+            position: 'Vue3',
+            name: 'LG U+ 상품출시 지원 시스템 운영',
+            date: {from: '2023년 10월', to: 'Current'},
             desc: []
         },
         {
-            position: 'Vite',
-            name: 'LG U+ 상품출시 지원 시스템',
-            date: {from: '2022년 4월', to: 'Current'},
+            position: '기획',
+            name: 'LG U+ Customer 360',
+            date: {from: '2023년 10월', to: 'Current'},
+            desc: []
+        },
+        {
+            position: '개발',
+            name: 'LG U+ Customer 360',
+            date: {from: '2023년 12월 예정', to: ''},
             desc: []
         },
     ];
