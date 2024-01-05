@@ -7,6 +7,7 @@ import UnocssIcons from '@unocss/preset-icons'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/resume',
   plugins: [
     react(),
     tsconfigPaths(),
