@@ -2,91 +2,60 @@ import { Progress } from '@components/ui/progress.tsx'
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from '@components/ui/card.tsx'
 import { cn } from '~/lib/utils.ts'
-import { Button } from '@components/ui/button.tsx'
-import { Check } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
-const skillContents = {
-  frontend: [
+interface IContent {
+  title: string
+  items: [
     {
-      name: 'Vue.js',
-      percentage: 70,
+      title: string
+      level: number
     },
-    {
-      name: 'React.js',
-      percentage: 70,
-    },
-  ],
-  backend: [
-    {
-      name: 'Java Spring Boot',
-      percentage: 80,
-    },
-    {
-      name: 'Node.js Express Framework',
-      percentage: 70,
-    },
-    {
-      name: 'Python Django',
-      percentage: 20,
-    },
-  ],
-  language: [
-    {
-      name: 'Javascript ES5',
-      percentage: 80,
-    },
-    {
-      name: 'Javascript ES6',
-      percentage: 80,
-    },
-    {
-      name: 'Java',
-      percentage: 70,
-    },
-    {
-      name: 'Python',
-      percentage: 50,
-    },
-  ],
+  ]
 }
 
-const Skills = () => {
-  const SkillProgress = ({ contents, title }) => {
-    return (
-      <Card className={cn('sm:my-3 sm:w-full md:mx-3 md:w-1/3')}>
-        <CardHeader>
-          <CardTitle>{title}</CardTitle>
-        </CardHeader>
-        <CardContent className="grid gap-4">
-          {contents.map((skill, index) => (
-            <div
-              key={index}
-              className="mb-4 items-start pb-4 last:mb-0 last:pb-0"
-            >
-              <div className="space-y-5">
-                <p className="text-sm font-medium leading-none">{skill.name}</p>
-                <Progress value={skill.percentage} />
-              </div>
+interface SkillProps {
+  contents: IContent[]
+}
+const SkillProgress = ({ contents }: SkillProps) => {
+  return contents.map((content) => (
+    <Card
+      className={cn('md:my-3 md:w-full lg:mx-3 lg:w-1/3')}
+      key={content.title}
+    >
+      <CardHeader>
+        <CardTitle>{content.title}</CardTitle>
+      </CardHeader>
+      <CardContent className="grid gap-4">
+        {content.items.map((skill) => (
+          <div
+            key={skill.title}
+            className="mb-4 items-start pb-4 last:mb-0 last:pb-0"
+          >
+            <div className="space-y-5">
+              <p className="text-sm font-medium leading-none">{skill.title}</p>
+              <Progress value={skill.level * 20} />
             </div>
-          ))}
-        </CardContent>
-      </Card>
-    )
-  }
+          </div>
+        ))}
+      </CardContent>
+    </Card>
+  ))
+}
+const Skills = () => {
+  const { t } = useTranslation()
 
   return (
     <div>
-      <p className="py-3 text-2xl">Skills</p>
-      <div className="md:flex">
-        <SkillProgress title={'Frontend'} contents={skillContents.frontend} />
-        <SkillProgress title={'Backend'} contents={skillContents.backend} />
-        <SkillProgress title={'Language'} contents={skillContents.language} />
+      <p className="py-3 text-2xl">{t('skill.title')}</p>
+      <div className="lg:flex">
+        <SkillProgress
+          contents={t('skill.contents', { returnObjects: true })}
+        />
       </div>
     </div>
   )

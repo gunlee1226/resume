@@ -7,28 +7,33 @@ import {
 
 interface InformationProps {
   documents: {
-    position?: string
-    name: string
-    date: {
-      from: string
-      to: string
-    }
-    desc?: string[]
-    image?: string
-  }[]
-  title: string
+    title: string
+    contents: {
+      name: string
+      position?: string
+      date: {
+        from: string
+        to?: string
+      }
+      descriptions?: string[]
+      image?: string
+    }[]
+  }
 }
 
-const Information = ({ documents, title }: InformationProps) => {
+const Information = ({ documents }: InformationProps) => {
   return (
     <Card className="my-3 w-full">
       <CardHeader>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle>{documents.title}</CardTitle>
       </CardHeader>
       <CardContent className="grid gap-4">
         <div>
-          {documents.map((item) => (
-            <div className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0">
+          {documents.contents.map((item) => (
+            <div
+              className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+              key={item.name}
+            >
               <span className="flex h-2 w-2 translate-y-1 rounded-full bg-sky-500" />
               <div className="space-y-1">
                 <p className="font-mono font-medium leading-none">
@@ -39,7 +44,7 @@ const Information = ({ documents, title }: InformationProps) => {
                   {item.date.from} - {item.date.to}
                 </p>
                 <ul>
-                  {item.desc?.map((description, descriptionIndex) => (
+                  {item.descriptions?.map((description, descriptionIndex) => (
                     <li key={descriptionIndex}>{description}</li>
                   ))}
                 </ul>
