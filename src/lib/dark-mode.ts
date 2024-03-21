@@ -28,6 +28,6 @@ export function useDarkMode(defaultValue?: boolean): UseDarkModeOutput {
 
   return {
     isDarkMode,
-    toggle: () => setDarkMode((prev) => !prev),
+    toggle: () => setDarkMode(prev => !prev),
   }
 }

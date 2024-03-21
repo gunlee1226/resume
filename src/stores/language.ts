@@ -13,7 +13,7 @@ const localesMap = Object.fromEntries(
 ) as Record<Locale, () => Promise<{ default: Record<string, string> }>>
 const availableLocales = Object.keys(localesMap)
 
-const useLanguage = create<Language>()((set) => ({
+const useLanguage = create<Language>()(set => ({
   lang: navigator.language.substring(0, 2),
   toggleLang: () =>
     set(() => {

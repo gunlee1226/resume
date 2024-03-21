@@ -21,6 +21,15 @@ interface InformationProps {
   }
 }
 
+function CreateLink({ description }) {
+  const processedDescription = description.replace(
+    /(http(s)?:\/\/)([a-z0-9\w]+\.*)+[a-z0-9]{2,4}([/a-z0-9-%#?&=\w])+(\.[a-z0-9]{2,6}(\?[/a-z0-9-%#?&=\w]+)*)*/gi,
+    '<a href="$&" target="_blank" class="text-sky-500">$&</a>',
+  )
+
+  return processedDescription
+}
+
 const Information = ({ documents }: InformationProps) => {
   return (
     <Card className="my-3 w-full">
@@ -29,7 +38,7 @@ const Information = ({ documents }: InformationProps) => {
       </CardHeader>
       <CardContent className="grid gap-4">
         <div>
-          {documents.contents?.map((item) => (
+          {documents.contents?.map(item => (
             <div
               className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
               key={item.name}
@@ -43,7 +52,12 @@ const Information = ({ documents }: InformationProps) => {
                 </p>
                 <ul>
                   {item.descriptions?.map((description, descriptionIndex) => (
-                    <li key={descriptionIndex}>{description}</li>
+                    <li
+                      key={descriptionIndex}
+                      dangerouslySetInnerHTML={{
+                        __html: CreateLink({ description }),
+                      }}
+                    />
                   ))}
                 </ul>
               </div>

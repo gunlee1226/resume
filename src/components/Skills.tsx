@@ -22,13 +22,13 @@ interface SkillProps {
   contents: IContent[]
 }
 const SkillProgress = ({ contents }: SkillProps) => {
-  return contents.map((content) => (
+  return contents.map(content => (
     <Card className={cn('my-3 md:w-full lg:mx-3 lg:w-1/3')} key={content.title}>
       <CardHeader>
         <CardTitle>{content.title}</CardTitle>
       </CardHeader>
       <CardContent className="grid gap-4">
-        {content.items.map((skill) => (
+        {content.items.map(skill => (
           <div
             key={skill.title}
             className="mb-4 items-start pb-4 last:mb-0 last:pb-0"
