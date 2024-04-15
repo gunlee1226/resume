@@ -3,31 +3,31 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from '@components/ui/card.tsx'
+} from "@/components/ui/card.tsx";
 
 interface InformationProps {
   documents: {
-    title: string
+    title: string;
     contents: {
-      name: string
-      position?: string
+      name: string;
+      position?: string;
       date: {
-        from: string
-        to?: string
-      }
-      descriptions?: string[]
-      image?: string
-    }[]
-  }
+        from: string;
+        to?: string;
+      };
+      descriptions?: string[];
+      image?: string;
+    }[];
+  };
 }
 
 function CreateLink({ description }) {
   const processedDescription = description.replace(
     /(http(s)?:\/\/)([a-z0-9\w]+\.*)+[a-z0-9]{2,4}([/a-z0-9-%#?&=\w])+(\.[a-z0-9]{2,6}(\?[/a-z0-9-%#?&=\w]+)*)*/gi,
     '<a href="$&" target="_blank" class="text-sky-500">$&</a>',
-  )
+  );
 
-  return processedDescription
+  return processedDescription;
 }
 
 const Information = ({ documents }: InformationProps) => {
@@ -38,7 +38,7 @@ const Information = ({ documents }: InformationProps) => {
       </CardHeader>
       <CardContent className="grid gap-4">
         <div>
-          {documents.contents?.map(item => (
+          {documents.contents?.map((item) => (
             <div
               className="mb-4 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
               key={item.name}
@@ -48,7 +48,7 @@ const Information = ({ documents }: InformationProps) => {
                 <p className="font-medium leading-none">{item.name}</p>
                 <p className="text-sm font-bold">{item?.position}</p>
                 <p className="text-sm text-muted-foreground">
-                  {item.date.from} {item.date.to ? '- ' + item.date.to : ''}
+                  {item.date.from} {item.date.to ? "- " + item.date.to : ""}
                 </p>
                 <ul>
                   {item.descriptions?.map((description, descriptionIndex) => (
@@ -66,7 +66,7 @@ const Information = ({ documents }: InformationProps) => {
         </div>
       </CardContent>
     </Card>
-  )
-}
+  );
+};
 
-export default Information
+export default Information;

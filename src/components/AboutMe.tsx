@@ -1,8 +1,8 @@
-import { useTranslation } from 'react-i18next'
-import avatar from '~/assets/img/avatar.jfif'
+import { useTranslation } from "react-i18next";
+import avatar from "@/assets/img/avatar.jfif";
 
 const AboutMe = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <div className="rounded py-2 shadow">
@@ -17,23 +17,23 @@ const AboutMe = () => {
         <div className="space-y-4 pt-6 text-center md:p-8 md:text-left">
           <blockquote>
             <p className="text-lg font-medium text-slate-900 dark:text-slate-100">
-              {t('profile.description')}
+              {t("profile.description")}
             </p>
           </blockquote>
           <figcaption className="font-medium">
             <div className="text-sky-500 dark:text-sky-400">
-              {t('profile.name')}
+              {t("profile.name")}
             </div>
             <div className="text-slate-800 dark:text-slate-300">
-              {t('profile.email')}
+              {t("profile.email")}
             </div>
             <div className="text-slate-700 dark:text-slate-500">
-              {t('profile.position')}
+              {t("profile.position")}
             </div>
           </figcaption>
         </div>
       </figure>
     </div>
-  )
-}
-export default AboutMe
+  );
+};
+export default AboutMe;

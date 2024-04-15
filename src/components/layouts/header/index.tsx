@@ -1,10 +1,13 @@
-import { Link } from 'react-router-dom'
-import ToggleLanguage from '@components/layouts/header/toggleLanguage.tsx'
-import ToggleDark from '@components/layouts/header/toggleDark.tsx'
-import { useTranslation } from 'react-i18next'
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { useDarkMode } from "@/lib/dark-mode.ts";
+import useLanguage from "@/stores/language.ts";
+import { Globe, Moon, Sun } from "lucide-react";
 
 const Header = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
+  const { toggle } = useDarkMode();
+  const { toggleLang } = useLanguage();
 
   return (
     <header className="z-50 flex w-full flex-wrap justify-start py-4 text-sm ">
@@ -13,19 +16,19 @@ const Header = () => {
         aria-label="Global"
       >
         <Link to="/" className="text-xl font-semibold">
-          {t('project.title')}
+          {t("project.title")}
         </Link>
         <div className="flex items-center justify-end sm:px-10">
-          <div className="inline-flex h-10 w-10 items-center justify-center rounded-full  text-center transition focus:outline-none focus:ring-2 focus:ring-offset-2">
-            <ToggleDark />
-          </div>
-          <div className="inline-flex h-10 w-10 items-center justify-center rounded-full text-center transition focus:outline-none focus:ring-2 focus:ring-offset-2">
-            <ToggleLanguage />
-          </div>
+          <Sun
+            className="cursor-pointer ml-2 hidden dark:block"
+            onClick={toggle}
+          />
+          <Moon className="cursor-pointer ml-2 dark:hidden" onClick={toggle} />
+          <Globe className="cursor-pointer ml-2" onClick={toggleLang} />
         </div>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
