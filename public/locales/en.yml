@@ -2,41 +2,40 @@ project:
   title: Resume
 
 profile:
-  name: Lee, Chungho
-  email: chlee125@gmail.com
-  position: Full Stack Developer
+  name: Lee, Gunho
+  email: gunlee1226@gmail.com
+  position: Back End Developer
   description: Developer who develops to make life easier
 
 education:
   title: Education
   contents:
-    - name: Korea National Open University, South Korea
+    - name: Chungwoon University, Incheon, South Korea
       position: Bachelor of Computer Science
       date:
-        from: Mar. 2020
-        to: Current
-      descriptions:
-        - Attending
-        - Expected to graduate in 2024
-    - name: Inha Technical College, South Korea
-      position: Department of Information and Communication Engineering
-      date:
-        from: Mar. 2016
-        to: Feb. 2019
+        from: Mar. 2018
+        to: Feb. 2020
       descriptions:
         - Graduated
-    - name: Incheon Knowledge Industry Association, South Korea
-      position: Hybrid Web & App Developer Course
+    - name: Yuhan College, South Korea
+      position: Department of Electronic Information
       date:
-        from: Mar. 2016
-        to: Aug. 2016
+        from: Mar. 2012
+        to: Feb. 2015
       descriptions:
-        - 800 hours
+        - Graduated
+    - name: Korean Vocational School, South Korea
+      position: UI/UX Developer Course Using Big Data
+      date:
+        from: Mar. 2020
+        to: Jan. 2021
+      descriptions:
+        - Completion
     - name: Incheon Yeongsun High School, South Korea
       position: Science
       date:
-        from: Mar. 2008
-        to: Feb. 2011
+        from: Mar. 2009
+        to: Feb. 2012
       descriptions:
         - Graduated
 

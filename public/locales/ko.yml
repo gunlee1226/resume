@@ -1,40 +1,40 @@
 project:
   title: 이력서
 profile:
-  name: 이충호 [Lee, Chungho]
-  email: chlee125@gmail.com
-  position: Full Stack Developer
-  description: 더욱 편하게 살기위해 개발하는 개발자
+  name: 이건호 [Lee, gungho]
+  email: gunlee1226@gmail.com
+  position: Back End Developer
+  description: 사용자를 생각하며, 개발하는 개발자
 
 education:
   title: 교육
   contents:
-    - name: 한국방송통신대학교
-      position: 컴퓨터과학과
+    - name: 청운대학교(인천캠퍼스)
+      position: 전자과
       date:
-        from: 2020년 03월
-        to: Current
-      descriptions:
-        - 재학중
-    - name: 인하공업전문대학
-      position: 정보통신공학과
-      date:
-        from: 2016년 03월
-        to: 2019년 02월
+        from: 2018년 03월
+        to: 2020년 2월
       descriptions:
         - 졸업
-    - name: (사)인천지식산업협회
-      position: Hybrid Web & App 개발자과정
+    - name: 유한대학교
+      position: 전자정보학과
       date:
-        from: 2016년 03월
-        to: 2016년 08월
+        from: 2012년 03월
+        to: 2015년 02월
       descriptions:
-        - 800시간 수료
+        - 졸업
+    - name: (사)한국직업전문학교
+      position: 빅데이터를 활용한 UI/UX 개발자
+      date:
+        from: 2020년 05월
+        to: 2021년 01월
+      descriptions:
+        - 540시간 수료
     - name: 인천영선고등학교
       position: 이과
       date:
-        from: 2008년 03월
-        to: 2011년 02월
+        from: 2009년 03월
+        to: 2012년 02월
       descriptions:
         - 졸업
 
