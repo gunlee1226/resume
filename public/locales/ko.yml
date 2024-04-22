@@ -41,6 +41,13 @@ education:
 portfolio:
   title: 포트폴리오
   contents:
+  - name: LG U+ 차세대UCube 선구축
+      position: '애버커스소프트웨어, DevOnFramework, Websquare5'
+      date:
+        from: 2021년 3월
+        to: 2021년 12월
+      descriptions:
+        - 기존 UCube  (miplatform -> Websquare5 전환), 신규화면 개발 
     
     - name: LG U+ 로봇 관리 플랫폼
       position: '애버커스소프트웨어, Nuxt, Vue2'
@@ -83,7 +90,7 @@ portfolio:
         - Native App 동작 연동 개발
 
     - name: 'LG U+ 상품출시 지원 시스템'
-      position: '애버커스소프트웨어, Vite, Vue3, Typescript'
+      position: '애버커스소프트웨어, Java, Spring Boot'
       date:
         from: 2022년 4월
         to: 2023년 10월
@@ -97,14 +104,7 @@ portfolio:
         from: 2023년 10월
         to: Current
 
-    - name: 'LG U+ 데이터팜 Customer 360 고도화 기획'
-      position: '애버커스소프트웨어, 기획'
-      date:
-        from: 2023년 10월
-        to: 2023년 12월
-      descriptions:
-        - 기획서 작성
-        - 기능 명세서 작성
+
 
 skill:
   title: Skills
@@ -127,20 +127,19 @@ skill:
           level: 4
         - title: MySQL / MariaDB
           level: 4
-        - title: MSSQL
-          level: 3
+
     - title: DevOps
       items:
-        - title: AWS / Azure / GCP
+        - title: AWS /
           level: 3
         - title: Docker
           level: 4
         - title: Jenkins / Github Actions
-          level: 4
+          level: 3
         - title: Git
           level: 4
         - title: Linux / Unix
-          level: 4
+          level: 3
     - title: 언어
       items:
         - title: 한국어
@@ -154,7 +153,7 @@ experiences:
     - name: 애버커스 소프트웨어
       position: Backend Developer
       date:
-        from: 2022년 3월
+        from: 2021년 3월
         to: Current
 
 certificates:
