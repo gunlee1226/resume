@@ -123,7 +123,7 @@ portfolio:
       descriptions:
         - Frontend
         - 기존 UCube  (miplatform -> Websquare5 전환)
-        - 신규화면개발 (임대폰가입 페이지, 중고폰가입보상정책 페이지) 
+        - 신규화면개발 (정책안내 페이지) 
 
 
 skill:
@@ -138,7 +138,7 @@ skill:
     - title: Database
       items:
         - title: Oracle
-          level: 4
+          level: 3
         - title: MySQL / MariaDB
           level: 4
     - title: DevOps
