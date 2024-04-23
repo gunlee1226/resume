@@ -1,7 +1,7 @@
 project:
   title: 이력서
 profile:
-  name: 이건호 [Lee, gungho]
+  name: 이건호 [Lee, gunho]
   email: gunlee1226@gmail.com
   position: Back End Developer
   description: 사용자를 생각하며, 개발하는 개발자
@@ -42,94 +42,102 @@ portfolio:
   title: 포트폴리오
   contents:
   - name: 'LG U+ 상품출시 지원 시스템 운영'
-      position: '애버커스소프트웨어, Java, Spring Boot'
-      date:
-        from: 2023년 10월
-        to: Current
+    position: '애버커스소프트웨어, Java, Spring Boot'
+    date:
+      from: 2023년 10월
+      to: Current
+    descriptions:
+      - Backend
 
-   - name: '사내 개발 서버 운영'
-      position: '애버커스소프트웨어, Cisco'
-      date:
-        from: 2022년 01월
-        to: Current      
-      descriptions:
-        - Infra
-        - Jenkins, gitlab, rocket.chat, nginx, docker harbor, nas, Vpn
+  - name: '사내 개발 서버 운영'
+    position: '애버커스소프트웨어, Cisco'
+    date:
+     from: 2022년 01월
+      to: Current      
+    descriptions:
+      - Infra
+      - Jenkins, gitlab, rocket.chat, nginx, docker harbor, nas, Vpn
 
   - name: 'LG U+ 광주518공원 순찰로봇 운영'
-      position: '애버커스소프트웨어'
-      date:
-        from: 2022년 01월
-        to: Current      
-      descriptions:
-        - Infra
-        - Linux, docker, Mqtt, PfSense, G/W    
+    position: '애버커스소프트웨어'
+    date:
+      from: 2022년 01월
+      to: Current      
+    descriptions:
+      - Infra
+      - Linux, docker, Mqtt, PfSense, G/W    
 
   - name: 'LG U+ 상품출시 지원 시스템'
-      position: '애버커스소프트웨어, Java, Spring Boot'
-      date:
-        from: 2022년 4월
-        to: 2023년 10월
-      descriptions:
-        - Backend
-        - 출시지원업무가이드 API 
-        - Spring Batch API
+    position: '애버커스소프트웨어, Java, Spring Boot'
+    date:
+      from: 2022년 4월
+      to: 2023년 10월
+    descriptions:
+      - Backend
+      - 출시지원업무가이드 API 
+      - Spring Batch API
 
-   - name: 'LG U+ 서빙로봇 앱'
-      position: '애버커스소프트웨어, Linux, docker, Jenkins, gitlab, github Action'
-      date:
-        from: 2022년 12월
-        to: 2023년 3월
-      descriptions:
-        - Infra
-        - 사내개발서버 CI/CD 구축 
-        - 사내개발서버 구축 (DynamoDB, minio 구축)
-        - AWS EC2 개발, 검수, 운영 서버 구축
-        - AWS CodeDeploy, S3bucket, DynamoDB, ELB, github Action
-        - AWS Aurora Mysql 8.0
-        - AutoScailng 정책에따른 shell script 개발       
+  - name: 'LG U+ 서빙로봇 앱'
+    position: '애버커스소프트웨어, Linux, docker, Jenkins, gitlab, github Action'
+    date:
+      from: 2022년 12월
+      to: 2023년 3월
+    descriptions:
+      - Infra
+      - 사내개발서버 CI/CD 구축 
+      - 사내개발서버 구축 (DynamoDB, minio 구축)
+      - AWS EC2 개발, 검수, 운영 서버 구축
+      - AWS CodeDeploy, S3bucket, DynamoDB, ELB, github Action
+      - AWS Aurora Mysql 8.0
+      - AutoScailng 정책에따른 shell script 개발       
 
   - name: 'LG U+ 데이터레이크'
-      position: '애버커스소프트웨어, Java, Spring Boot, WaffulFramework'
-      date:
-        from: 2022년 6월
-        to: 2022년 12월
-      descriptions:
-        - Backend
-        - 빅데이터 가공을 위한 데이터 생성 페이지 API
-        - 데이터 시각화를 위한 통계 데이터 생성 페이지 API
-        - 대외비 처리를 위한 데이터 가공 페이지 API    
+    position: '애버커스소프트웨어, Java, Spring Boot, WaffulFramework'
+    date:
+      from: 2022년 6월
+      to: 2022년 12월
+    descriptions:
+      - Backend
+      - 빅데이터 가공을 위한 데이터 생성 페이지 API
+      - 데이터 시각화를 위한 통계 데이터 생성 페이지 API
+      - 대외비 처리를 위한 데이터 가공 페이지 API    
 
   - name: LG U+ 로봇 관리 플랫폼 (순찰로봇 고도화)
-      position: '애버커스소프트웨어, Linux, docker, Jenkins, gitlab, docker harbor'
-      date:
-        from: 2022년 3월
-        to: 2022년 5월
-      descriptions:
-        - Infra
-        - 사내개발서버 CI/CD 구축 
-        - 사내개발서버 구축 
-        - 외부VM 검수서버 구축 
-        - Wowza Live Streaming Service 구축 
+    position: '애버커스소프트웨어, Linux, docker, Jenkins, gitlab, docker harbor'
+    date:
+      from: 2022년 3월
+      to: 2022년 5월
+    descriptions:
+      - Infra
+      - 사내개발서버 CI/CD 구축 
+      - 사내개발서버 구축 
+      - 외부VM 검수서버 구축 
+      - Wowza Live Streaming Service 구축 
 
   - name: LG U+ 차세대UCube 선구축
-      position: '애버커스소프트웨어, DevOnFramework, Websquare5'
-      date:
-        from: 2021년 3월
-        to: 2021년 12월
-      descriptions:
-        - Frontend
-        - 기존 UCube  (miplatform -> Websquare5 전환)
-        - 신규화면개발 (임대폰가입 페이지, 중고폰가입보상정책 페이지)
-    
-  
+    position: '애버커스소프트웨어, DevOnFramework, Websquare5'
+    date:
+      from: 2021년 3월
+      to: 2021년 12월
+    descriptions:
+      - Frontend
+      - 기존 UCube  (miplatform -> Websquare5 전환)
+      - 신규화면개발 (임대폰가입 페이지, 중고폰가입보상정책 페이지) 
+
+
 skill:
   title: Skills
   contents:
-
+    - title: Frontend
+      items:
+        - title: React
+          level: 4
+        - title: Vue
+          level: 4
     - title: Backend
       items:
-      
+        - title: Node.js Express
+          level: 4
         - title: Java Spring Boot
           level: 4
     - title: Database
@@ -138,19 +146,20 @@ skill:
           level: 4
         - title: MySQL / MariaDB
           level: 4
-
+        - title: MSSQL
+          level: 3
     - title: DevOps
       items:
-        - title: AWS /
+        - title: AWS / Azure / GCP
           level: 3
         - title: Docker
           level: 4
         - title: Jenkins / Github Actions
-          level: 3
+          level: 4
         - title: Git
           level: 4
         - title: Linux / Unix
-          level: 3
+          level: 4
     - title: 언어
       items:
         - title: 한국어
