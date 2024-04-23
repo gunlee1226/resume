@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import avatar from "@/assets/img/avatar.jfif";
+import avatar from "@/assets/img/gunlee.jpeg";
 
 const AboutMe = () => {
   const { t } = useTranslation();

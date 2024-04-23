@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <Skills /> */}
+      <Skills />
       <Information documents={t("portfolio", { returnObjects: true })} />
     </div>
   );
