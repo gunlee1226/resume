@@ -42,22 +42,33 @@ education:
 portfolio:
   title: 포트폴리오
   contents:
+
+   - name: 'LG U+ 상품출시 지원 시스템 고도화 상품약관관리'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2024년 11월
+        to: Current
+      descriptions:
+        - Backend
+        - Java, Spring Boot,
+        
     - name: 'LG U+ 상품출시 지원 시스템 운영'
-      position: '애버커스소프트웨어, Java, Spring Boot'
+      position: '애버커스소프트웨어'
       date:
         from: 2023년 10월
         to: Current
       descriptions:
         - Backend
+        - Java, Spring Boot, Kubernetes
 
     - name: '사내 개발 서버 운영'
-      position: '애버커스소프트웨어, Cisco'
+      position: '애버커스소프트웨어'
       date:
         from: 2022년 01월
         to: Current      
       descriptions:
         - Infra
-        - Jenkins, gitlab, rocket.chat, nginx, docker harbor, nas, Vpn
+        - Jenkins, gitlab, rocket.chat, nginx, docker harbor, nas, vpn
 
     - name: 'LG U+ 광주518공원 순찰로봇 운영'
       position: '애버커스소프트웨어'
