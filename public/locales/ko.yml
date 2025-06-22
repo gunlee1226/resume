@@ -42,107 +42,162 @@ education:
 portfolio:
   title: 포트폴리오
   contents:
-   - name: 'LGU+ 고객언어포털2.0
-     position: '애버커스소프트웨어'
-     date:
-      from: 2025년 05월
-      to: Current
-    descriptions:
-      - SWA, TA, AA
-      - Java, Spring Boot, AWS
-  
-  - name: 'LG U+ 상품출시 지원 시스템 고도화 상품약관관리'
-    position: '애버커스소프트웨어'
-    date:
-      from: 2024년 11월
-      to: 2025년 04월 (6개월)
-    descriptions:
-      - 벡엔드
-      - Java, Spring Boot, Kubernetes
+    - name: 'LGU+ 고객언어포털2.0'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2025년 05월
+        to: Current
+      descriptions:
+        - SWA, TA, AA
+      skills:
+        - AWS
+        - JAVA
+        - Spring Boot
+        - Mysql
+
+    - name: 'LG U+ 상품출시 지원 시스템 고도화 상품약관관리'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2024년 11월
+        to: 2025년 04월 (6개월)
+      descriptions:
+        - 백엔드
+      skills: 
+        - Kubernetes
+        - JAVA
+        - Spring Boot
+        - vue.js
+        - typescript
+        - Mysql
+
+    - name: 'LG U+ 상품출시 지원 시스템 운영'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2023년 10월
+        to: 2025년 04월 (18개월)
+      descriptions:
+        - 백엔드, AA
+      skills: 
+        - Kubernetes
+        - JAVA
+        - Spring Boot
+        - vue.js
+        - typescript
+        - Mysql
+
+    - name: '사내 개발 서버 운영'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2021년 12월
+        to: Current (43개월)
+      descriptions:
+        - TA, SWA, AA
+        - JPA 기반 Spring 서비스 운영 및 성능 모니터링
+        - Mysql, Oralce, PostgreSql 등 DB 운영 및 셋업 
+        - Nginx, Nexus, 사내채팅서버, 사내인사관리시스템, Jenkins, Gitlab, VPN, NAS, WIKI, Redmine 등의 사내 서비스 운영 및 성능 모니터링, 버전업그레이드 
+      skills:
+        - VPN
+        - Java
+        - Spring Boot
+        - JPA
+        - MySQL
+
+    - name: 'LG U+ 광주518공원 순찰로봇 운영'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2022년 01월
+        to: 2023년 12월 (24개월)
+      descriptions:
+        - AA, 백엔드, 프론트엔드
+        - Linux, docker, Mqtt, PfSense, Apache Kafka
+      skills:
+        - Java
+        - Spring Boot
+        - vue.js
+        - mariaDB
+
+    - name: 'LG U+ 상품출시 지원 시스템'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2022년 4월
+        to: 2023년 10월 (7개월)
+      descriptions:
+        - 백엔드
+        - 출시지원업무가이드 API
+        - Spring Batch API
+      skills:
+        - Java
+        - Spring Boot
+        - Spring Batch
+        - Mysql
+
+    - name: 'LG U+ 서빙로봇 앱'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2022년 12월
+        to: 2023년 3월 (3개월)
+      descriptions:
+        - TA, SWA
+        - 사내개발서버 CI/CD 구축
+        - 사내개발서버 구축 (DynamoDB, minio 구축)
+        - AWS EC2 개발, 검수, 운영 서버 구축
+      skills:
+        - Linux
+        - Docker
+        - Jenkins
+        - GitLab
+        - GitHub Actions
+        - AWS 
         
-  - name: 'LG U+ 상품출시 지원 시스템 운영'
-    position: '애버커스소프트웨어'
-    date:
-      from: 2023년 10월
-      to: 2025년 04월 (18개월)
-    descriptions:
-      - 백엔드, AA
-      - Java, Spring Boot, Kubernetes
+    - name: 'LG U+ 데이터레이크'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2022년 6월
+        to: 2022년 12월 (7개월)
+      descriptions:
+        - Backend
+        - 빅데이터 가공을 위한 데이터 생성 페이지 API
+        - 데이터 시각화를 위한 통계 데이터 생성 페이지 API
+        - 대외비 처리를 위한 데이터 가공 페이지 API
+      skills: 
+        - JAVA
+        - Spring Boot
+        - GCP
+        - PostgreSQL
 
-  - name: '사내 개발 서버 운영'
-    position: '애버커스소프트웨어'
-    date:
-      from: 2021년 12월
-      to: Current (43개월)     
-    descriptions:
-      - TA, SWA, AA
-      - Jenkins, gitlab, rocket.chat, nginx, docker harbor, nas, vpn
+    - name: 'LG U+ 로봇 관리 플랫폼 (순찰로봇 고도화)'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2022년 1월
+        to: 2022년 5월 (5개월)
+      descriptions:
+        - TA, SWA
+        - 사내개발서버 CI/CD 구축
+        - 사내개발서버 구축
+        - 외부VM 검수서버 구축
+        - Wowza Live Streaming Service 구축
+      skills:
+        - Linux
+        - Docker
+        - Jenkins
+        - GitLab
+        - Docker Harbor
 
-  - name: 'LG U+ 광주518공원 순찰로봇 운영'
-    position: '애버커스소프트웨어'
-    date:
-      from: 2022년 01월
-      to: 2023년 12월 (24개월)  
-    descriptions:
-      - AA, 백엔드, 프론트엔드
-      - Linux, docker, Mqtt, PfSense, Apache Kafka,     
-
-  - name: 'LG U+ 상품출시 지원 시스템'
-    position: '애버커스소프트웨어, Java, Spring Boot'
-    date:
-      from: 2022년 4월
-      to: 2023년 10월 (7개월)
-    descriptions:
-      - 백엔드
-      - 출시지원업무가이드 API 
-      - Spring Batch API
-
-  - name: 'LG U+ 서빙로봇 앱'
-    position: '애버커스소프트웨어, Linux, docker, Jenkins, gitlab, github Action'
-    date:
-      from: 2022년 12월
-      to: 2023년 3월 (3개월)
-    descriptions:
-      - TA, SWA
-      - 사내개발서버 CI/CD 구축 
-      - 사내개발서버 구축 (DynamoDB, minio 구축)
-      - AWS EC2 개발, 검수, 운영 서버 구축
-      - AWS CodeDeploy, S3bucket, DynamoDB, ELB, github Action
-      - AWS Aurora Mysql 8.0
-      - AutoScailng 정책에따른 shell script 개발       
-
-  - name: 'LG U+ 데이터레이크'
-    position: '애버커스소프트웨어, Java, Spring Boot, WaffulFramework'
-    date:
-      from: 2022년 6월
-      to: 2022년 12월 (7개월)
-    descriptions:
-      - Backend
-      - 빅데이터 가공을 위한 데이터 생성 페이지 API
-      - 데이터 시각화를 위한 통계 데이터 생성 페이지 API
-      - 대외비 처리를 위한 데이터 가공 페이지 API    
-
-  - name: 'LG U+ 로봇 관리 플랫폼 (순찰로봇 고도화)'
-    position: '애버커스소프트웨어, Linux, docker, Jenkins, gitlab, docker harbor'
-    date:
-      from: 2022년 1월
-      to: 2022년 5월 (5개월) 
-    descriptions:
-      - TA, SWA
-      - 사내개발서버 CI/CD 구축 
-      - 사내개발서버 구축 
-      - 외부VM 검수서버 구축 
-      - Wowza Live Streaming Service 구축 
-
-  - name: 'LG U+ 차세대UCube 선구축'
-    position: '애버커스소프트웨어, DevOnFramework, Websquare5'
-    date:
-      from: 2021년 3월
-      to: 2021년 12월 (10개월)
-    descriptions:
-      - 백엔드, 프론트엔드
-      - 기존 UCube  (miplatform -> Websquare5 전환)
-     
+    - name: 'LG U+ 차세대UCube 선구축'
+      position: '애버커스소프트웨어'
+      date:
+        from: 2021년 3월
+        to: 2021년 12월 (10개월)
+      descriptions:
+        - 백엔드, 프론트엔드
+        - 기존 UCube (miplatform -> Websquare5 전환)
+      skills: 
+        - DevOnFramework
+        - Websquare5
+        - JAVA
+        - javascript
+        - OracleDB
+   
 
 
 skill:
