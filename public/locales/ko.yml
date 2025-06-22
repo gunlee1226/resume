@@ -42,49 +42,58 @@ education:
 portfolio:
   title: 포트폴리오
   contents:
+   - name: 'LGU+ 고객언어포털2.0
+    position: '애버커스소프트웨어'
+    date:
+      from: 2025년 05월
+      to: Current
+    descriptions:
+      - SWA, TA, AA
+      - Java, Spring Boot, AWS
+  
   - name: 'LG U+ 상품출시 지원 시스템 고도화 상품약관관리'
     position: '애버커스소프트웨어'
     date:
       from: 2024년 11월
-      to: Current
+      to: 2025년 04월 (6개월)
     descriptions:
-      - Backend
-      - Java, Spring Boot,
+      - 벡엔드
+      - Java, Spring Boot, Kubernetes
         
   - name: 'LG U+ 상품출시 지원 시스템 운영'
     position: '애버커스소프트웨어'
     date:
       from: 2023년 10월
-      to: Current
+      to: 2025년 04월 (18개월)
     descriptions:
-      - Backend
+      - 백엔드, AA
       - Java, Spring Boot, Kubernetes
 
   - name: '사내 개발 서버 운영'
     position: '애버커스소프트웨어'
     date:
-      from: 2022년 01월
-      to: Current      
+      from: 2021년 12월
+      to: Current (43개월)     
     descriptions:
-      - Infra
+      - TA, SWA, AA
       - Jenkins, gitlab, rocket.chat, nginx, docker harbor, nas, vpn
 
   - name: 'LG U+ 광주518공원 순찰로봇 운영'
     position: '애버커스소프트웨어'
     date:
       from: 2022년 01월
-      to: 2023년 12월      
+      to: 2023년 12월 (24개월)  
     descriptions:
-      - Infra
-      - Linux, docker, Mqtt, PfSense, G/W    
+      - AA, 백엔드, 프론트엔드
+      - Linux, docker, Mqtt, PfSense, Apache Kafka,     
 
   - name: 'LG U+ 상품출시 지원 시스템'
     position: '애버커스소프트웨어, Java, Spring Boot'
     date:
       from: 2022년 4월
-      to: 2023년 10월
+      to: 2023년 10월 (7개월)
     descriptions:
-      - Backend
+      - 백엔드
       - 출시지원업무가이드 API 
       - Spring Batch API
 
@@ -92,9 +101,9 @@ portfolio:
     position: '애버커스소프트웨어, Linux, docker, Jenkins, gitlab, github Action'
     date:
       from: 2022년 12월
-      to: 2023년 3월
+      to: 2023년 3월 (3개월)
     descriptions:
-      - Infra
+      - TA, SWA
       - 사내개발서버 CI/CD 구축 
       - 사내개발서버 구축 (DynamoDB, minio 구축)
       - AWS EC2 개발, 검수, 운영 서버 구축
@@ -106,7 +115,7 @@ portfolio:
     position: '애버커스소프트웨어, Java, Spring Boot, WaffulFramework'
     date:
       from: 2022년 6월
-      to: 2022년 12월
+      to: 2022년 12월 (7개월)
     descriptions:
       - Backend
       - 빅데이터 가공을 위한 데이터 생성 페이지 API
@@ -116,10 +125,10 @@ portfolio:
   - name: 'LG U+ 로봇 관리 플랫폼 (순찰로봇 고도화)'
     position: '애버커스소프트웨어, Linux, docker, Jenkins, gitlab, docker harbor'
     date:
-      from: 2022년 3월
-      to: 2022년 5월
+      from: 2022년 1월
+      to: 2022년 5월 (5개월) 
     descriptions:
-      - Infra
+      - TA, SWA
       - 사내개발서버 CI/CD 구축 
       - 사내개발서버 구축 
       - 외부VM 검수서버 구축 
@@ -129,11 +138,11 @@ portfolio:
     position: '애버커스소프트웨어, DevOnFramework, Websquare5'
     date:
       from: 2021년 3월
-      to: 2021년 12월
+      to: 2021년 12월 (10개월)
     descriptions:
-      - Frontend
+      - 백엔드, 프론트엔드
       - 기존 UCube  (miplatform -> Websquare5 전환)
-      - 신규화면개발 (정책안내 페이지) 
+     
 
 
 skill:
