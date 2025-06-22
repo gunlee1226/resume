@@ -43,8 +43,8 @@ portfolio:
   title: 포트폴리오
   contents:
    - name: 'LGU+ 고객언어포털2.0
-    position: '애버커스소프트웨어'
-    date:
+     position: '애버커스소프트웨어'
+     date:
       from: 2025년 05월
       to: Current
     descriptions:
