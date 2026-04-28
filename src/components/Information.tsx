@@ -11,6 +11,7 @@ interface InformationProps {
     contents: {
       name: string;
       position?: string;
+      job?: string;
       date: {
         from: string;
         to?: string;
@@ -50,6 +51,12 @@ const Information = ({ documents }: InformationProps) => {
                 <p className="text-sm text-muted-foreground">
                   {item.date.from} {item.date.to ? "- " + item.date.to : ""}
                 </p>
+                {item.job && (
+                  <p
+                    className="text-sm text-muted-foreground"
+                    dangerouslySetInnerHTML={{ __html: item.job }}
+                  />
+                )}
                 <ul>
                   {item.descriptions?.map((description, descriptionIndex) => (
                     <li
