@@ -42,6 +42,14 @@ education:
 portfolio:
   title: 포트폴리오
   contents:
+    - name: '토스모바일 서비스 운영'
+      position: '토스모바일'
+      date:
+        from: 2025년 11월
+        to: current
+      descriptions:
+        - Backend Develop Team Manager
+
     - name: 'LGU+ 고객언어포털2.0'
       position: '애버커스소프트웨어'
       date:
@@ -194,24 +202,24 @@ skill:
   contents:
     - title: Backend
       items:
-        - title: Python
-          level: 2
-        - title: Java Spring Boot
+        - title: Python + FastAPI / Python + DJango
           level: 4
+        - title: Java + Spring Boot
+          level: 5
     - title: Database
       items:
         - title: Oracle
-          level: 3
+          level: 5
         - title: MySQL / MariaDB
-          level: 4
+          level: 5
     - title: DevOps
       items:
         - title: Public Cloud AWS
-          level: 4
+          level: 5
         - title: Docker / Kubernetes
-          level: 4
-        - title: Jenkins / Github Actions
-          level: 4
+          level: 5
+        - title: Jenkins / Github Actions / ArgoCD
+          level: 5
         - title: Git
           level: 5
         - title: Linux / Unix
@@ -227,12 +235,13 @@ experiences:
   title: 경력
   contents:
     - name: 토스모바일 / IT & Security팀 / 매니저
-      position: Backend Developer 
-      job: 통신재판매업을 하는 토스 100% 지분의 계열사에서 개발팀 매니저로 업무를 진행하고 있으며, <br /> 
-          적은 인원으로 인프라, 보안, 개발 각자의 업무를 분담하여 기존 서비스 운영 및 신규 서비스 구축을 진행하고 있습니다. <br /> 
-          이중 본인은 개발을 담당하고 있으며, 인프라 영역 또한 경력을 살려서 조금은 보조 하고 있습니다. <br /> 
-          최근에는 AWS Lambda 함수를 사용하여 백엔드 서버를 구축, AWS ECS를 사용한 웹서버 구축 및 파일서버 구축 을 진행하며, <br /> 
-          보안을 철저히 한 아키텍처를 구성하여 서비스를 구성하였습니다.
+      position: Backend Developer
+      job: 토스 100% 지분의 계열사인 토스모바일 IT &amp; Security팀에서 백엔드 개발자로 근무하고 있습니다. <br />
+          팀은 인프라, 네트워크 보안, 개인정보보호, 개발 파트로 구성된 10명 내외의 소규모 팀으로, CISO 직속 조직입니다. <br />
+          보안을 최우선으로 하는 환경에서 CISO와 함께 업무하며, 보안 중심의 개발 문화를 경험하고 있습니다. <br />
+          주 업무는 백엔드 개발이며, SI 시절 쌓은 TA(Technical Architect) 경험을 바탕으로 인프라 설계 및 구성에도 참여합니다. <br />
+          AWS Lambda를 활용한 서버리스 백엔드를 설계·구현하였으며, 서비스 간 연동 시 Lambda → Lambda IAM Invoke 방식을 적용해 최소 권한 원칙을 준수하였습니다. <br />
+          Security Group, ECS, HTTP API Gateway, VPC Endpoint 등 AWS 인프라를 직접 설계·구성하며, 보안을 최우선으로 고려한 아키텍처를 구축하고 있습니다.
       date:
         from: 2025년 11월
         to: current
@@ -258,4 +267,4 @@ certificates:
 
 update:
   description: 수정일자
-  date: 2025년 2월 23일
+  date: 2026년 4월 28일
