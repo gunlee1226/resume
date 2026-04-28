@@ -46,7 +46,7 @@ portfolio:
       position: '애버커스소프트웨어'
       date:
         from: 2025년 05월
-        to: Current
+        to: 2025년 10월
       descriptions:
         - SWA, TA, AA
         - AWS
@@ -206,16 +206,16 @@ skill:
           level: 4
     - title: DevOps
       items:
-        - title: AWS 
-          level: 3
-        - title: Docker
+        - title: Public Cloud AWS
+          level: 4
+        - title: Docker / Kubernetes
           level: 4
         - title: Jenkins / Github Actions
           level: 4
         - title: Git
-          level: 4
+          level: 5
         - title: Linux / Unix
-          level: 4
+          level: 5
     - title: 언어
       items:
         - title: 한국어
@@ -226,11 +226,27 @@ skill:
 experiences:
   title: 경력
   contents:
-    - name: 애버커스 소프트웨어
-      position: Backend Developer
+    - name: 토스모바일 / IT & Security팀 / 매니저
+      position: Backend Developer 
+      job: 통신재판매업을 하는 토스 100% 지분의 계열사에서 개발팀 매니저로 업무를 진행하고 있으며, <br /> 
+          적은 인원으로 인프라, 보안, 개발 각자의 업무를 분담하여 기존 서비스 운영 및 신규 서비스 구축을 진행하고 있습니다. <br /> 
+          이중 본인은 개발을 담당하고 있으며, 인프라 영역 또한 경력을 살려서 조금은 보조 하고 있습니다. <br /> 
+          최근에는 AWS Lambda 함수를 사용하여 백엔드 서버를 구축, AWS ECS를 사용한 웹서버 구축 및 파일서버 구축 을 진행하며, <br /> 
+          보안을 철저히 한 아키텍처를 구성하여 서비스를 구성하였습니다.
+      date:
+        from: 2025년 11월
+        to: current
+        
+    - name: 애버커스 소프트웨어 / 데이터플랫폼사업팀 / 선임
+      position: Backend Developer & Technology Architecture
+      job: SI개발회사에서 근무하였으며 <br />
+            신입사원시절 프론트엔드 개발을 시작으로 SWA,TA 의 업무를 부여받아 성공적으로 프로젝트를 완수한 경험이있습니다.<br />
+            이후 백엔드 개발을 시작하였고, 현재는 백엔드 개발, SWA, TA 의 업무를 수행하고 있습니다. <br />
+            개발자란 단순히 코드를 작성하는것이 아닌 최적의 소프트웨어를 만들어 내는 사람이라고 생각하고. <br />
+            자신없는 분야라 할지라도 부딛혀서 배우고 있습니다.
       date:
         from: 2021년 3월
-        to: Current
+        to: 2025년 10월
 
 certificates:
   title: 수상 및 자격
